@@ -7,8 +7,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:saloncrud/CustomerBookings/book_list.dart';
 
-import 'package:saloncrud/main.dart';
+import 'package:saloncrud/home_page.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
