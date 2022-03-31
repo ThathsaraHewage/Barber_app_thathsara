@@ -79,89 +79,59 @@ class BookList extends StatelessWidget {
                                 content: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
-                                    Container(
-                                      margin:
-                                          EdgeInsets.symmetric(vertical: 15.0),
-                                      child: TextFormField(
-                                        autofocus: false,
-                                        decoration: InputDecoration(
-                                          labelText: 'Name: ',
-                                          labelStyle: TextStyle(fontSize: 20.0),
-                                          border: OutlineInputBorder(),
-                                          errorStyle: TextStyle(
-                                              color: Colors.redAccent,
-                                              fontSize: 10),
-                                          hintText: document['name'],
-                                        ),
-                                        controller: nameController,
+                                    //name
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20),
+                                      child: Text("Name: "),
+                                    ),
+                                    TextField(
+                                      controller: nameController,
+                                      decoration: InputDecoration(
+                                        hintText: document['name'],
                                       ),
                                     ),
-                                    Container(
-                                      margin:
-                                          EdgeInsets.symmetric(vertical: 15.0),
-                                      child: TextFormField(
-                                        autofocus: false,
-                                        decoration: InputDecoration(
-                                          labelText: 'Address: ',
-                                          labelStyle: TextStyle(fontSize: 20.0),
-                                          border: OutlineInputBorder(),
-                                          errorStyle: TextStyle(
-                                              color: Colors.redAccent,
-                                              fontSize: 10),
-                                          hintText: document['address'],
-                                        ),
-                                        controller: addressController,
+                                    //address
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20),
+                                      child: Text("Address: "),
+                                    ),
+                                    TextField(
+                                      controller: addressController,
+                                      decoration: InputDecoration(
+                                        hintText: document['address'],
                                       ),
                                     ),
-                                    Container(
-                                      margin:
-                                          EdgeInsets.symmetric(vertical: 15.0),
-                                      child: TextFormField(
-                                        autofocus: false,
-                                        decoration: InputDecoration(
-                                          labelText: 'Age: ',
-                                          labelStyle: TextStyle(fontSize: 20.0),
-                                          border: OutlineInputBorder(),
-                                          errorStyle: TextStyle(
-                                              color: Colors.redAccent,
-                                              fontSize: 10),
-                                          hintText: document['age'],
-                                        ),
-                                        controller: ageController,
+                                    //age
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20),
+                                      child: Text("Age : "),
+                                    ),
+                                    TextField(
+                                      controller: ageController,
+                                      decoration: InputDecoration(
+                                        hintText: document['age'],
                                       ),
                                     ),
-                                    Container(
-                                      margin:
-                                          EdgeInsets.symmetric(vertical: 15.0),
-                                      child: TextFormField(
-                                        autofocus: false,
-                                        decoration: InputDecoration(
-                                          labelText: 'Date: ',
-                                          labelStyle: TextStyle(fontSize: 20.0),
-                                          border: OutlineInputBorder(),
-                                          errorStyle: TextStyle(
-                                              color: Colors.redAccent,
-                                              fontSize: 10),
-                                          hintText: document['date'],
-                                        ),
-                                        controller: dateController,
+                                    //date
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20),
+                                      child: Text("Date : "),
+                                    ),
+                                    TextField(
+                                      controller: dateController,
+                                      decoration: InputDecoration(
+                                        hintText: document['date'],
                                       ),
                                     ),
-                                    Container(
-                                      margin:
-                                          EdgeInsets.symmetric(vertical: 15.0),
-                                      child: TextFormField(
-                                        autofocus: false,
-                                        decoration: InputDecoration(
-                                          labelText: 'Phone Number: ',
-                                          labelStyle: TextStyle(fontSize: 20.0),
-                                          border: OutlineInputBorder(),
-                                          errorStyle: TextStyle(
-                                              color: Colors.redAccent,
-                                              fontSize: 10),
-                                          hintText: document['phone'],
-                                        ),
-                                        controller: phoneController,
+                                    //phone
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20),
+                                      child: Text("Phone: "),
+                                    ),
+                                    TextField(
+                                      controller: phoneController,
+                                      decoration: InputDecoration(
+                                        hintText: document['phone'],
                                       ),
                                     ),
                                   ],
