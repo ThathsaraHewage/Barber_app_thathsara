@@ -334,11 +334,27 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Row(
                 children: <Widget>[
                   FeaturePlantCard(
-                    image: "assets/images/bottom_img_1.png",
+                    image: "assets/images/cr2.jpg",
                     press: () {},
                   ),
                   FeaturePlantCard(
-                    image: "assets/images/bottom_img_2.png",
+                    image: "assets/images/cr3.jpg",
+                    press: () {},
+                  ),
+                  FeaturePlantCard(
+                    image: "assets/images/cr4.jpg",
+                    press: () {},
+                  ),
+                  FeaturePlantCard(
+                    image: "assets/images/cr5.jpg",
+                    press: () {},
+                  ),
+                  FeaturePlantCard(
+                    image: "assets/images/cr6.webp",
+                    press: () {},
+                  ),
+                  FeaturePlantCard(
+                    image: "assets/images/cr7.jpg",
                     press: () {},
                   ),
                 ],
